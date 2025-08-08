@@ -86,15 +86,15 @@ const HomePage = ({
   };
 
   // Filter properties based on current filters and search term
-  const filteredProperties = properties.filter(property => {
+const filteredProperties = properties.filter(property => {
     // Search term filter
     if (searchTerm) {
       const searchLower = searchTerm.toLowerCase();
       const matchesSearch = 
-        property.address.toLowerCase().includes(searchLower) ||
-        property.city.toLowerCase().includes(searchLower) ||
-        property.state.toLowerCase().includes(searchLower) ||
-        property.zipCode.includes(searchTerm);
+        (property.address || '').toLowerCase().includes(searchLower) ||
+        (property.city || '').toLowerCase().includes(searchLower) ||
+        (property.state || '').toLowerCase().includes(searchLower) ||
+        (property.zipCode || '').includes(searchTerm);
       
       if (!matchesSearch) return false;
     }
@@ -133,8 +133,8 @@ const HomePage = ({
     if (filters.keywords) {
       const keywordsLower = filters.keywords.toLowerCase();
       const matchesKeywords = 
-        property.description.toLowerCase().includes(keywordsLower) ||
-        property.features.some(feature => feature.toLowerCase().includes(keywordsLower));
+        (property.description || '').toLowerCase().includes(keywordsLower) ||
+        (property.features || []).some(feature => (feature || '').toLowerCase().includes(keywordsLower));
       
       if (!matchesKeywords) return false;
     }

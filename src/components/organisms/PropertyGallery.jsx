@@ -28,15 +28,15 @@ const PropertyGallery = ({ images = [], address }) => {
 
   return (
     <div className="space-y-4">
-      {/* Main Image */}
+{/* Main Image */}
       <motion.div 
         className="relative h-96 rounded-xl overflow-hidden cursor-pointer group"
-        onClick={() => setIsLightboxOpen(true)}
+        onClick={() => images.length > 0 && setIsLightboxOpen(true)}
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.2 }}
       >
         <img
-          src={images[currentIndex]}
+          src={images.length > 0 ? images[currentIndex] : 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop'}
           alt={`${address} - Image ${currentIndex + 1}`}
           className="w-full h-full object-cover"
         />
@@ -66,14 +66,18 @@ const PropertyGallery = ({ images = [], address }) => {
         )}
 
         {/* Image Counter */}
-        <div className="absolute bottom-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
-          {currentIndex + 1} / {images.length}
-        </div>
+        {images.length > 0 && (
+          <div className="absolute bottom-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
+            {currentIndex + 1} / {images.length}
+          </div>
+        )}
 
         {/* Expand Icon */}
-        <div className="absolute top-4 right-4 bg-white/90 rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity">
-          <ApperIcon name="Expand" className="h-5 w-5" />
-        </div>
+        {images.length > 0 && (
+          <div className="absolute top-4 right-4 bg-white/90 rounded-full p-2 opacity-0 group-hover:opacity-100 transition-opacity">
+            <ApperIcon name="Expand" className="h-5 w-5" />
+          </div>
+        )}
       </motion.div>
 
       {/* Thumbnail Strip */}
@@ -101,7 +105,7 @@ const PropertyGallery = ({ images = [], address }) => {
 
       {/* Lightbox */}
       <AnimatePresence>
-        {isLightboxOpen && (
+        {isLightboxOpen && images.length > 0 && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

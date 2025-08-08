@@ -78,7 +78,7 @@ const SavedPropertiesPage = () => {
   }
 
   // Get property details for saved properties
-  const savedPropertyDetails = savedProperties
+const savedPropertyDetails = savedProperties
     .map(saved => {
       const property = properties.find(p => p.Id === saved.propertyId);
       return property ? { ...property, savedDate: saved.savedDate } : null;

@@ -130,8 +130,8 @@ const PropertyDetailPage = () => {
         Back to Properties
       </button>
 
-      {/* Property Gallery */}
-      <PropertyGallery images={property.images} address={property.address} />
+{/* Property Gallery */}
+      <PropertyGallery images={property.images || []} address={property.address} />
 
       {/* Property Details */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">

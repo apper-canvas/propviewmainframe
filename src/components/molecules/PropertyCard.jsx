@@ -39,7 +39,7 @@ const PropertyCard = ({ property, onToggleFavorite, isFavorited }) => {
     >
       <div className="relative overflow-hidden">
         <img
-          src={property.images[0]}
+src={property.images && property.images.length > 0 ? property.images[0] : 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop'}
           alt={property.address}
           className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200"
         />
