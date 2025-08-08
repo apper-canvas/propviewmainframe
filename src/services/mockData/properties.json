@@ -1,0 +1,377 @@
+[
+  {
+    "Id": 1,
+    "address": "123 Maple Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipCode": "94102",
+    "price": 1250000,
+    "propertyType": "House",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFeet": 1800,
+    "yearBuilt": 1995,
+    "description": "Beautiful Victorian-style home in the heart of San Francisco. This charming property features original hardwood floors, high ceilings, and a modern kitchen with granite countertops. The spacious living area flows seamlessly into the dining room, perfect for entertaining. The master suite includes a walk-in closet and en-suite bathroom. Located in a quiet neighborhood with easy access to public transportation and local amenities.",
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Hardwood Floors",
+      "Modern Kitchen",
+      "High Ceilings",
+      "Walk-in Closet",
+      "En-suite Bathroom",
+      "Garage"
+    ],
+    "listingDate": "2024-01-15T08:00:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 2,
+    "address": "456 Oak Avenue",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipCode": "90210",
+    "price": 2850000,
+    "propertyType": "House",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFeet": 3200,
+    "yearBuilt": 2018,
+    "description": "Contemporary luxury home in prestigious Beverly Hills neighborhood. This stunning property boasts an open-concept design with floor-to-ceiling windows that flood the space with natural light. The gourmet kitchen features top-of-the-line appliances and a large island perfect for casual dining. The master suite is a true retreat with a spa-like bathroom and private balcony overlooking the landscaped backyard. Additional amenities include a home office, wine cellar, and three-car garage.",
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Open Concept",
+      "Floor-to-Ceiling Windows",
+      "Gourmet Kitchen",
+      "Home Office",
+      "Wine Cellar",
+      "Three-Car Garage",
+      "Landscaped Backyard"
+    ],
+    "listingDate": "2024-01-20T10:30:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 3,
+    "address": "789 Pine Boulevard",
+    "city": "Seattle",
+    "state": "WA",
+    "zipCode": "98101",
+    "price": 875000,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1200,
+    "yearBuilt": 2020,
+    "description": "Modern luxury condominium in downtown Seattle with breathtaking city and water views. This sleek unit features an open floor plan with premium finishes throughout, including quartz countertops and stainless steel appliances. Floor-to-ceiling windows showcase panoramic views from every room. The building offers world-class amenities including a rooftop terrace, fitness center, and concierge service. Walking distance to Pike Place Market, waterfront, and major tech companies.",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1560448075-bb485b067938?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1616137466211-f939fc48ddb8?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "City Views",
+      "Water Views",
+      "Rooftop Terrace",
+      "Fitness Center",
+      "Concierge Service",
+      "Quartz Countertops",
+      "Stainless Steel Appliances"
+    ],
+    "listingDate": "2024-01-18T14:15:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 4,
+    "address": "321 Elm Street",
+    "city": "Austin",
+    "state": "TX",
+    "zipCode": "78701",
+    "price": 650000,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFeet": 1650,
+    "yearBuilt": 2019,
+    "description": "Contemporary townhouse in vibrant East Austin neighborhood. This stylish home features an open-concept living area with polished concrete floors and exposed beam ceilings. The modern kitchen boasts custom cabinetry, quartz countertops, and a large island. Upstairs, the master suite includes a walk-in closet and luxurious bathroom with dual vanities. The private backyard is perfect for outdoor entertaining. Minutes from downtown Austin and the best restaurants, music venues, and outdoor activities the city has to offer.",
+    "images": [
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Open Concept",
+      "Polished Concrete Floors",
+      "Exposed Beams",
+      "Custom Cabinetry",
+      "Private Backyard",
+      "Dual Vanities"
+    ],
+    "listingDate": "2024-01-22T11:45:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 5,
+    "address": "567 Cedar Drive",
+    "city": "Denver",
+    "state": "CO",
+    "zipCode": "80202",
+    "price": 750000,
+    "propertyType": "House",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2100,
+    "yearBuilt": 2005,
+    "description": "Charming craftsman-style home in desirable Highlands neighborhood. This well-maintained property features original architectural details including built-in bookcases, crown molding, and a beautiful brick fireplace. The updated kitchen includes granite counters and stainless appliances. The finished basement provides additional living space perfect for a family room or home office. The landscaped backyard features mature trees and a deck for outdoor entertaining. Close to parks, restaurants, and downtown Denver.",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752229-450d37e3fc4e?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753051-6d2d27746aa9?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Craftsman Style",
+      "Built-in Bookcases",
+      "Brick Fireplace",
+      "Finished Basement",
+      "Landscaped Backyard",
+      "Mature Trees",
+      "Deck"
+    ],
+    "listingDate": "2024-01-19T16:20:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 6,
+    "address": "890 Birch Lane",
+    "city": "Miami",
+    "state": "FL",
+    "zipCode": "33101",
+    "price": 1450000,
+    "propertyType": "Condo",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFeet": 1900,
+    "yearBuilt": 2021,
+    "description": "Ultra-modern oceanfront condominium in prestigious South Beach. This luxurious unit offers unobstructed ocean views from every room through floor-to-ceiling glass walls. The open-plan living space features Italian marble floors and a state-of-the-art kitchen with premium European appliances. The master suite boasts a private terrace and spa-like bathroom with soaking tub. Building amenities include infinity pool, private beach access, valet parking, and 24-hour security. Walk to world-class dining, shopping, and nightlife.",
+    "images": [
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Oceanfront",
+      "Floor-to-Ceiling Glass",
+      "Italian Marble Floors",
+      "European Appliances",
+      "Private Terrace",
+      "Infinity Pool",
+      "Private Beach Access",
+      "Valet Parking"
+    ],
+    "listingDate": "2024-01-25T09:00:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 7,
+    "address": "234 Willow Court",
+    "city": "Portland",
+    "state": "OR",
+    "zipCode": "97201",
+    "price": 525000,
+    "propertyType": "House",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "squareFeet": 1350,
+    "yearBuilt": 1978,
+    "description": "Cozy mid-century modern home in trendy Northwest Portland. This updated property retains its original character while incorporating modern conveniences. Features include refinished hardwood floors, vaulted ceilings, and large windows that bring in abundant natural light. The renovated kitchen includes new appliances and custom tile work. The private backyard is perfect for gardening enthusiasts. Located in walkable neighborhood close to restaurants, coffee shops, and public transportation.",
+    "images": [
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Mid-Century Modern",
+      "Hardwood Floors",
+      "Vaulted Ceilings",
+      "Large Windows",
+      "Custom Tile Work",
+      "Private Backyard",
+      "Walkable Neighborhood"
+    ],
+    "listingDate": "2024-01-21T13:30:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 8,
+    "address": "678 Magnolia Street",
+    "city": "Charleston",
+    "state": "SC",
+    "zipCode": "29401",
+    "price": 925000,
+    "propertyType": "House",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFeet": 2400,
+    "yearBuilt": 1890,
+    "description": "Historic Charleston single house with modern updates. This beautifully restored antebellum home features original heart pine floors, 12-foot ceilings, and period moldings throughout. The updated kitchen blends historic charm with modern functionality. Multiple fireplaces, a formal dining room, and spacious piazzas complete this classic Southern home. The private courtyard garden is an oasis of tranquility in the heart of the historic district. Walk to Rainbow Row, King Street shopping, and award-winning restaurants.",
+    "images": [
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752229-450d37e3fc4e?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Historic District",
+      "Heart Pine Floors",
+      "12-foot Ceilings",
+      "Period Moldings",
+      "Multiple Fireplaces",
+      "Piazzas",
+      "Private Courtyard",
+      "Garden"
+    ],
+    "listingDate": "2024-01-17T12:15:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 9,
+    "address": "135 Aspen Way",
+    "city": "Aspen",
+    "state": "CO",
+    "zipCode": "81611",
+    "price": 4200000,
+    "propertyType": "House",
+    "bedrooms": 5,
+    "bathrooms": 4.5,
+    "squareFeet": 4200,
+    "yearBuilt": 2015,
+    "description": "Spectacular mountain contemporary home with panoramic views of Aspen Mountain and the Roaring Fork Valley. This architectural masterpiece features soaring ceilings, walls of glass, and premium finishes throughout. The gourmet kitchen is a chef's dream with top-tier appliances and custom cabinetry. The great room centers around a dramatic stone fireplace. The master suite offers a private deck, walk-in closet, and luxurious spa bathroom. Additional amenities include a wine cellar, home theater, and heated three-car garage. Minutes from world-class skiing, hiking, and Aspen's cultural attractions.",
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752229-450d37e3fc4e?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Mountain Views",
+      "Soaring Ceilings",
+      "Walls of Glass",
+      "Stone Fireplace",
+      "Wine Cellar",
+      "Home Theater",
+      "Heated Garage",
+      "Private Deck"
+    ],
+    "listingDate": "2024-01-23T15:45:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 10,
+    "address": "456 Harbor View",
+    "city": "Boston",
+    "state": "MA",
+    "zipCode": "02109",
+    "price": 1150000,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1100,
+    "yearBuilt": 2019,
+    "description": "Sophisticated waterfront condominium in Boston's vibrant North End. This elegant unit offers stunning harbor views and luxury finishes throughout. The open-concept living space features hardwood floors, built-in bookshelves, and a marble fireplace. The modern kitchen boasts premium appliances and a breakfast bar. Both bedrooms offer water views, and the master includes an en-suite bathroom with marble vanity. Building amenities include a rooftop deck, fitness center, and concierge services. Walking distance to Faneuil Hall, North End restaurants, and waterfront parks.",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Harbor Views",
+      "Hardwood Floors",
+      "Built-in Bookshelves",
+      "Marble Fireplace",
+      "Breakfast Bar",
+      "Rooftop Deck",
+      "Fitness Center",
+      "Concierge Services"
+    ],
+    "listingDate": "2024-01-16T10:00:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 11,
+    "address": "789 Desert Vista",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "zipCode": "85251",
+    "price": 1750000,
+    "propertyType": "House",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFeet": 3500,
+    "yearBuilt": 2017,
+    "description": "Stunning contemporary desert home with breathtaking mountain and city views. This architectural gem features clean lines, floor-to-ceiling windows, and seamless indoor-outdoor living. The open-concept interior includes a gourmet kitchen with waterfall island, great room with linear fireplace, and master suite with private patio. The resort-style backyard boasts an infinity pool, spa, outdoor kitchen, and fire features. Located in exclusive guard-gated community with golf course access. Close to world-class dining, shopping, and desert recreational activities.",
+    "images": [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "Mountain Views",
+      "Floor-to-Ceiling Windows",
+      "Indoor-Outdoor Living",
+      "Waterfall Island",
+      "Infinity Pool",
+      "Outdoor Kitchen",
+      "Guard-Gated",
+      "Golf Course Access"
+    ],
+    "listingDate": "2024-01-24T14:30:00Z",
+    "status": "For Sale"
+  },
+  {
+    "Id": 12,
+    "address": "321 Riverside Drive",
+    "city": "Nashville",
+    "state": "TN",
+    "zipCode": "37201",
+    "price": 485000,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFeet": 850,
+    "yearBuilt": 2020,
+    "description": "Modern apartment in trendy Music Row district with river views. This stylish unit features luxury vinyl plank flooring, quartz countertops, and stainless steel appliances. The open floor plan maximizes space and light, while the private balcony offers peaceful river views. Building amenities include a rooftop lounge, fitness center, dog park, and package concierge. Walking distance to Broadway entertainment district, Vanderbilt University, and Music City's best honky-tonks and restaurants.",
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop"
+    ],
+    "features": [
+      "River Views",
+      "Luxury Vinyl Plank",
+      "Quartz Countertops",
+      "Private Balcony",
+      "Rooftop Lounge",
+      "Dog Park",
+      "Package Concierge"
+    ],
+    "listingDate": "2024-01-26T11:20:00Z",
+    "status": "For Sale"
+  }
+]
